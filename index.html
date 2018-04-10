@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <title>Codice Loco</title>
+  </head>
+  <body>
+    <h1 align="center">Website under construction</h1>
+    <h2 align="center" id="lenny"></h2>
+  
+    <script>
+      $.getJSON("http://lenny.today/api/v1/random?limit=1", function(data) {
+        $("#lenny").html(data.face);
+      });
+    </script>
+  </body>
+</html>
