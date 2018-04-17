@@ -1,17 +1,87 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <title>Codice Loco</title>
-  </head>
-  <body>
-    <h1 align="center">Website under construction</h1>
-    <h2 align="center" id="lenny"></h2>
-  
-    <script>
-      $.getJSON("http://lenny.today/api/v1/random?limit=1", function(data) {
-        $("#lenny").html(data.face);
-      });
-    </script>
+<html lang="en">
+    <head>
+        <meta charset='UTF-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <meta name='description' content="Codice Loco's official website">
+        <meta name='keywords' content='codice loco, dev team, vicenza, italy, programmers, developers'>
+        <meta name='author' content='Codice Loco'>
+
+        <meta name='theme-color' content='#444444'>
+        <meta name='msapplication-navbutton-color' content='#444444'>
+        <meta name='apple-mobile-web-app-capable' content='yes'>
+        <meta name='apple-mobile-web-app-status-bar-style' content='black-translucent'>
+        <link rel='icon' sizes='192x192' href='img/favicon-hires.png'>
+        <link rel='apple-touch-icon' href='img/favicon-hires.png'>
+        <meta name='msapplication-square310x310logo' content='img/favicon-hires.png'>
+
+        <link rel='icon'          href='img/favicon.png' type='image/png' />
+        <link rel='shortcut icon' href='img/favicon.png' type='image/png' />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="css/theme_flat-light.css" />
+        <link rel="stylesheet" href="css/index.css" />
+
+        <title>Codice Loco</title>
+    </head>
+    <body>
+        <div class="jumbotron">
+          <div class="container">
+              <div class="row">
+                  <div class="center-text col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+                      <img style="width:100%;" src="img/banner800x300.png" alt="Codice Loco" title="Codice Loco" />
+                  </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="container">
+            <br />
+            <div class="text-center">
+                <h1>Straight outta Vicenza, Italy. <br />
+                    Check us out below.</h1>
+                <br /><br />
+            </div>
+        </div>
+
+        <div class="jumbotron" id="avatars">
+            <div class="container row">
+                <div class="col-xs-6 col-sm-3 text-center">
+                    <a href="https://alexsartori.github.io" target="_blank">
+                        <img src="img/avatar_alex.jpg" title="Alessandro Sartori" alt="Alessandro Sartori"
+                            class="img-circle" width="80%">
+                        <h3>Alessandro<br />Sartori</h3>
+                    </a>
+                </div>
+                <div class="col-xs-6 col-sm-3 text-center">
+                    <a href="#" target="_blank">
+                        <img src="img/avatar_luca.jpg" title="Luca Marzari" alt="Luca Marzari"
+                            class="img-circle" width="80%">
+                        <h3>Luca<br />Marzari</h3>
+                    </a>
+                </div>
+                <div class="col-xs-6 col-sm-3 text-center">
+                    <a href="http://niccolomarcon.it" target="_blank">
+                        <img src="img/avatar_magic.jpg" title="Niccolò Marcon" alt="Niccolò Marcon"
+                            class="img-circle" width="80%">
+                        <h3>Niccolò<br />Marcon</h3>
+                    </a>
+                </div>
+                <div class="col-xs-6 col-sm-3 text-center">
+                    <a href="#" target="_blank">
+                        <img src="img/avatar_nicola.jpg" title="Nicola Forasacco" alt="Nicola Forasacco"
+                            class="img-circle" width="80%">
+                        <h3>Nicola<br />Forasacco</h3>
+                    </a>
+                </div>
+            </div>
+            <br />
+    </div> <!-- End of container -->
+
+
+    <p align="center">Copyright 2018, Codice Loco</p>
   </body>
 </html>

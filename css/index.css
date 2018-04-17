@@ -1,0 +1,9 @@
+.jumbotron {
+    background-image: url("../img/pattern.png");
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+
+#avatars a {
+    color: inherit;
+}
