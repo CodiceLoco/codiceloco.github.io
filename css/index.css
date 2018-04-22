@@ -7,3 +7,19 @@
 #avatars a {
     color: inherit;
 }
+
+#avatars img {
+    width: 80%;
+}
+
+#highlights h3 {
+    margin: 0px;
+}
+#highlights img {
+    width: 100%;
+}
+#highlights .panel-footer {
+    background-color: transparent;
+    color: inherit;
+    border-top: 1px dashed #777;
+}
