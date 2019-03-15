@@ -18,6 +18,9 @@
 #highlights img {
     width: 100%;
 }
+#highlights .panel {
+    margin-bottom: 40px;
+}
 #highlights .panel-footer {
     background-color: transparent;
     color: inherit;
